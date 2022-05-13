@@ -22,9 +22,8 @@ int main(){
     } else {
         cout<<"false"<<" ";
     }
-    return 0;
     for(int i=0;i<list.size();i++)
         cout<<sortedList.at(i)<<" ";
     cout<<endl;
-
+    return 0;
 }
