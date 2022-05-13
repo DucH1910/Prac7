@@ -19,7 +19,5 @@ int main(){
     for(int i=0;i<list.size();i++)
         cout<<sortedList.at(i)<<" ";
     cout<<endl;
-    RecursiveBinarySearch search;
-    cout<<search.search(sortedList,3)<<endl;
     return 0;
 }
