@@ -11,7 +11,7 @@ int main(){
         string temp;
         cin >> temp;
         if (temp == "")
-            break
+            break;
         list.push_back(stoi(temp));
     }
     QuickSort quick;
